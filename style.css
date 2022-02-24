@@ -41,6 +41,12 @@ p{
     background-position: left;
     
 }
+.global-back-img{
+    background-image: url(images/shapes/shape-1.png);
+    
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .footer-part{
     background-color: rgb(66, 41, 41);
     padding: 3px;
