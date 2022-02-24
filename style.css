@@ -1,0 +1,61 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px ;
+}
+.container{
+    display:flex;
+    margin-top: 50px;
+}
+.half-part{
+    width: 50%;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+.half-part img{
+    width: 55%;
+}
+h1{
+    font-size:30px ;
+}
+p{
+    text-align: justify;
+}
+.orange-color{
+    color: tomato;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 2px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 12px goldenrod;
+}
+.block-item{
+    display: block;
+    margin-top: 10px;
+}
+.limit-back-img{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.footer-part{
+    background-color: rgb(66, 41, 41);
+    padding: 3px;
+    text-align: center;
+}
+.white-color{
+    color: whitesmoke;
+}
+.mission-clr{
+    padding: 3px;
+    border-radius: 15px;
+}
+.boder-left-shape{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange,lightblue);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
